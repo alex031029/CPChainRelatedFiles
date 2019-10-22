@@ -9,4 +9,5 @@ python3 retrieveImpeach.py --bk=775000
 This script requires two labs, `fire` and `requests`. Please download it using pip3.
 
 
-Author: Wu Jiajing
+Code author: Wu Jiajing
+Docs author: Shi Yanchen
