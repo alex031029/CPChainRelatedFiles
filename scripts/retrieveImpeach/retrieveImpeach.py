@@ -21,15 +21,24 @@ def get_address(bk=770000):
     r = requests.get(url)
     bks = json.loads(r.text).get('impeach_bks')
     li = []
+    addr = {}
     for i in range(len(bks)):
         time = datetime.fromtimestamp(bks[i]["timestamp"]).strftime("%Y-%m-%d %H:%M:%S")
         impeach_item = {"address": bks[i]['impeachProposer'], 'number': bks[i]['number'],
                         'time': time}
+        if impeach_item['address'] not in addr:
+            addr[impeach_item['address']] = 1
+        else:
+            addr[impeach_item['address']] +=1
         li.append(impeach_item)
-    print('total impeach number: ', len(li))
 
     li.reverse()
     pprint(li)
+    print("*"*100)
+
+    pprint(sorted(addr.items(),key=lambda x:x[1],reverse=True))
+
+    print('total impeach number: ', len(li))
 
 
 if __name__ == '__main__':
