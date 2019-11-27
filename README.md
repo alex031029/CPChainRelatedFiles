@@ -14,6 +14,6 @@ It contains scripts and little tools for extract data for cpchain.
 
 It contains a template written by Liu Shaowei, and patents written by me.
 
-## Video Transcipt
+## Video Transcripts
 
-In includes transcript for TikTok and Bilibili videos.
+In includes transcripts for TikTok and Bilibili videos.
