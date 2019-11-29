@@ -18,6 +18,6 @@ It contains a template written by Liu Shaowei, and patents written by me.
 
 In includes transcripts for TikTok and Bilibili videos.
 
-# Fornight Reviews
+## Fornight Reviews
 
 It is a changelog of CPChain for every other week.
