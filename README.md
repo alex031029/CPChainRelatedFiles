@@ -20,4 +20,4 @@ In includes transcripts for TikTok and Bilibili videos.
 
 ## Fornight Reviews
 
-It is a changelog of CPChain for every other week.
+It is a changelog of CPChain every other week.
